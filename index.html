@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title of the document</title>
+        <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+        <link rel="stylesheet" href="./index.css"></link>
+        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>Time Line Sample</h1>
+            </div>
+            <div id ='timeline-embed' style="width: 100%; height: 600px"></div>
+        </div>
+        <script type="text/javascript">
+            timeline = new TL.Timeline('timeline-embed',
+                'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
+        </script>
+    </body>
+</html>
